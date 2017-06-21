@@ -27,8 +27,8 @@ lt=bsobj.find_all('input')[3]["value"]
 execution=bsobj.find_all('input')[4]["value"]
 
 #post信息
-values = {"username":"13693190090",
-          "password":"wocaonimeimei111",
+values = {"username":"账号",
+          "password":"密码",
           "lt":lt,
           "execution":execution,
           "_eventId":"submit",
