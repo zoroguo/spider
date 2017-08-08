@@ -30,17 +30,6 @@ create table spider_liepin
     PRIMARY KEY  (id)
 )engine=innodb;
 
-     3. 流程：a) 模拟登录 佛本红尘一浪子/******
-             b) 以 http://tieba.baidu.com/bawu2/platform/listMemberInfo?word=%E8%8B%B1%E9%9B%84%E5%BF%97&ie=utf-8&red_tag=u0594837291
-                 为起点，遍历抓取用户信息
-             c) 获取所有关注人详细信息url
-             d) 遍历所有详细信息url，从中取出相关字段信息
-             e) 批量插入mysql库中
-
-鉴于用户关注贴吧数未知，数据首先处理到mongdb中
-
-可配置化。word=parameter（此处参数为贴吧名，获取关注贴吧用户）
-http://tieba.baidu.com/bawu2/platform/listMemberInfo?word=英雄志BE&pn=1
 '''
 
 import urllib.request
