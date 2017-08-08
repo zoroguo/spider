@@ -2,7 +2,7 @@
 '''
 Created on Thu Jun  16 22:16:00 2017
 
-@author: guozhijun
+@author: zoro
 
 说明： 1.抓取猎聘网招聘内容
       2.内容：
